@@ -28,7 +28,7 @@ class Weather:
 
         if not isinstance(cloudy_days, int):
             raise TypeError("Количество пасмурных дней должно быть типа int")
-        if sunny_days < 0:
+        if cloudy_days < 0:
             raise ValueError("Количество пасмурных дней не может быть отрицательным числом")
         self.cloudy_days = cloudy_days
 
