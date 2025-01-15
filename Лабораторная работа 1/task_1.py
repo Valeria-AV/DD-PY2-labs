@@ -1,6 +1,7 @@
 import doctest
 from typing import Union
 
+
 class Weather:
     def __init__(self, selected_days: int, sunny_days: int, cloudy_days: int):
         """
