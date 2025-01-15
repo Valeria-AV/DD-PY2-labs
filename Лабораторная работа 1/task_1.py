@@ -130,6 +130,7 @@ class Bookshelf:
         Примеры:
         >>> bookshelf = Bookshelf(2, 15)  # инициализация экземпляра класса
         """
+        
         if not isinstance(number_of_books, int):
             raise TypeError("Количество книг на полке должно быть типа int")
         if number_of_books < 0:
@@ -143,7 +144,7 @@ class Bookshelf:
         self.maximum_books = maximum_books
 
         if number_of_books > maximum_books:
-            raise ValueError("Количество книг на полке не может быть меньше максимального количества книг")
+            raise ValueError("Количество книг на полке не может быть больше максимального количества книг")
 
     def add_books(self, add_books: int):
         """
