@@ -6,10 +6,10 @@ class Jewelry:
         """
         Создание объекта Украшение
 
-                :param unique_number: Уникальный номер изделия
-                :param material: Материал изделия
-                :param price: Цена изделия
-                """
+        :param unique_number: Уникальный номер изделия
+        :param material: Материал изделия
+        :param price: Цена изделия
+        """
 
         self._unique_number = unique_number
         self._material = material
